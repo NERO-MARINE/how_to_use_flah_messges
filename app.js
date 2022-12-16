@@ -6,7 +6,7 @@ const port = 3000;
 
 const app = express();
 
-app.set('view engine', 'ejs')
+app.set('view engine', 'ejs');
 
 // use express-session
 app.use(session({
